@@ -1,5 +1,5 @@
 
-const renderChat = function (config) {
+const renderChat = function (config: any) {
   const chatContainer = document.createElement("div")
   chatContainer.classList.add("architect-chat-container")
 
@@ -13,7 +13,7 @@ const renderChat = function (config) {
   return chatContainer
 }
 
-const createHeader = function (config) {
+const createHeader = function (config: any) {
   const header = document.createElement("div");
   header.textContent = `Hello Neo! My name is ${config.botName}`;
   header.classList.add("architect-chat-header");
