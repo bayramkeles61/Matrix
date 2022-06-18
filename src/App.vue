@@ -1,7 +1,4 @@
-<script setup lang="ts">
-// import HomeView from "./views/HomeView.vue";
-import TheArchitect from "./components/TheArchitect.vue";
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="h-screen w-screen">
